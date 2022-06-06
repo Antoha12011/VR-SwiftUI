@@ -47,7 +47,11 @@ struct ListItem: Identifiable {
 }
 
 var animals = [
-    ListItem(title: "Жилой комплекс", subtitle: "Карякина", image: "Дом"),
-    ListItem(title: "Жилой комплекс", subtitle: "Краснодар", image: "Дома"),
-    ListItem(title: "Жилой комплекс", subtitle: "Кубанский", image: "Домаа")]
+    ListItem(title: "Карякина", subtitle: "Краснодар" , image: "Дом"),
+    ListItem(title: "Краснодар", subtitle: "Краснодар", image: "Дома"),
+    ListItem(title: "Кубанский", subtitle: "Кубанский", image: "Домаа"),
+    ListItem(title: "Карякина", subtitle: "Краснодар" , image: "Дом1"),
+    ListItem(title: "Краснодар", subtitle: "Краснодар", image: "Дом2"),
+    ListItem(title: "Кубанский", subtitle: "Кубанский", image: "Дом3")]
+
 

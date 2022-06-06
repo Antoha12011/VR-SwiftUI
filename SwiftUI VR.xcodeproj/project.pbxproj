@@ -15,7 +15,6 @@
 		445468AE2816EFC100ABA60C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445468AC2816EFC100ABA60C /* LaunchScreen.storyboard */; };
 		445468B72816F71B00ABA60C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445468B62816F71B00ABA60C /* DetailView.swift */; };
 		445468BA2816FA1A00ABA60C /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445468B92816FA1A00ABA60C /* PopupView.swift */; };
-		445468C12817087D00ABA60C /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445468C02817087D00ABA60C /* Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		445468AF2816EFC100ABA60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445468B62816F71B00ABA60C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		445468B92816FA1A00ABA60C /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
-		445468C02817087D00ABA60C /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 			children = (
 				445468A12816EFC000ABA60C /* AppDelegate.swift */,
 				445468A32816EFC000ABA60C /* SceneDelegate.swift */,
-				445468C02817087D00ABA60C /* Content.swift */,
 				445468A52816EFC000ABA60C /* ContentView.swift */,
 				445468B62816F71B00ABA60C /* DetailView.swift */,
 				445468B92816FA1A00ABA60C /* PopupView.swift */,
@@ -159,7 +156,6 @@
 				445468A42816EFC000ABA60C /* SceneDelegate.swift in Sources */,
 				445468BA2816FA1A00ABA60C /* PopupView.swift in Sources */,
 				445468A62816EFC000ABA60C /* ContentView.swift in Sources */,
-				445468C12817087D00ABA60C /* Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +298,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI VR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI VR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.mtsbank.dbomsb.SwiftUI-VR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,6 +319,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI VR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI VR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.mtsbank.dbomsb.SwiftUI-VR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
